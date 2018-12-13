@@ -1,4 +1,4 @@
-# Note sui risultati
-## La breve storia triste delle poche cose che abbiamo capito
+# Notes
+## Brief history of what we finally got right
 
-La valid loss non è interamente collegata alle performance; nell'ultimo test eseguito dopo 15 epoch la valid loss era > 0.5 ma l'accuracy era la stessa del test con valid_loss = 0.09.
+The final valid_loss is not strictly related to network's performances. One test with final valid_loss > 0.5 had same accuracy of another one with final valid_loss = 0.09. 
