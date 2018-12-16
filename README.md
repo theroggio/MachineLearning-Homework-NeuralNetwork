@@ -15,3 +15,5 @@
 - Code run with 20 epoch and 0.2 dropout probability (at both layers): **97% accuracy | 60% precision | 11% recall** - [6 true positive, 4 false positive, 50 false negative]  /  same code with 25 epoch: **96,3% accuracy | 40,7% precision | 62,5% recall** - [35 true positive, 51 false positive, 21 false negative]
 
 - Code run with 20 epoch, only one fully connected layer and 0.2 dropout: **96.3% accuracy | 22.5% precision | 12.5% recall** - [7 true positive, 24 false positive, 49 false negative]
+
+- Code run with optimizer 'Adam' instead of 'Momentum' -- totail failure, no positive predictions (all 0)
